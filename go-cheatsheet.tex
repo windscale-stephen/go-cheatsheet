@@ -3,6 +3,7 @@
 \usepackage{calc}
 \usepackage{ifthen}
 \usepackage[landscape]{geometry}
+\usepackage{listings}
 \usepackage{hyperref}
 
 % To make this come out properly in landscape mode, do one of the following
@@ -93,6 +94,23 @@
 \begin{center}
      \Large{\textbf{Go Cheatsheet}} \\
 \end{center}
+
+\section{Minimal Go Program}
+
+\texttt{\ldots/helloworld/helloworld.go}:
+
+\lstinputlisting[language=Go]{helloworld.go}
+
+To run:
+\begin{verbatim}
+go mod init helloworld
+go run helloworld.go
+\end{verbatim}
+
+To build excutable (to \texttt{helloworld}):
+\begin{verbatim}
+go build helloworld
+\end{verbatim}
 
 \section{Document classes}
 \begin{tabular}{@{}ll@{}}

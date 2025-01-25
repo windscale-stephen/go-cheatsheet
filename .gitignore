@@ -1,3 +1,5 @@
 _site/
-new-go-cheatsheet.tex
+new-go-cheatsheet.*
 latexsheet.tex
+go.mod
+helloworld
