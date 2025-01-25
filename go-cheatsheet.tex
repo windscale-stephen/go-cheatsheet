@@ -7,18 +7,20 @@
 
 % To make this come out properly in landscape mode, do one of the following
 % 1.
-%  pdflatex latexsheet.tex
+%  pdflatex go-cheatsheet.tex
 %
 % 2.
-%  latex latexsheet.tex
-%  dvips -P pdf  -t landscape latexsheet.dvi
-%  ps2pdf latexsheet.ps
+%  latex go-cheatsheet.tex
+%  dvips -P pdf  -t landscape go-cheatsheet.dvi
+%  ps2pdf go-cheatsheet.ps
 
 
 % If you're reading this, be prepared for confusion.  Making this was
 % a learning experience for me, and it shows.  Much of the placement
 % was hacked in; if you make it better, let me know...
 
+% 2025-01 (SPB)
+% Modified as the basis for a Go cheat sheet.
 
 % 2008-04
 % Changed page margin code to use the geometry package. Also added code for
@@ -28,11 +30,9 @@
 % 2006-08
 % Made changes based on suggestions from Gene Cooperman. <gene at ccs.neu.edu>
 
-
 % To Do:
 % \listoffigures \listoftables
 % \setcounter{secnumdepth}{0}
-
 
 % This sets page margins to .5 inch if using letter paper, and to 1cm
 % if using A4 paper. (This probably isn't strictly necessary.)
@@ -47,7 +47,6 @@
 % Turn off header and footer
 \pagestyle{empty}
  
-
 % Redefine section commands to use less space
 \makeatletter
 \renewcommand{\section}{\@startsection{section}{1}{0mm}%
@@ -71,10 +70,8 @@
 % Don't print section numbers
 \setcounter{secnumdepth}{0}
 
-
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt plus 0.5ex}
-
 
 % -----------------------------------------------------------------------
 
@@ -94,7 +91,7 @@
 \setlength{\columnsep}{2pt}
 
 \begin{center}
-     \Large{\textbf{\LaTeXe\ Cheat Sheet}} \\
+     \Large{\textbf{Go Cheat Sheet}} \\
 \end{center}
 
 \section{Document classes}
@@ -745,10 +742,9 @@ The table is numbered \ref{ex:table}.
 \rule{0.3\linewidth}{0.25pt}
 \scriptsize
 
-Copyright \copyright\ 2014 Winston Chang
+Copyright \copyright\ 2025 Stephen Butler
 
-\href{http://wch.github.io/latexsheet/}{http://wch.github.io/latexsheet/}
-
+\href{https://github.com/windscale-stephen/go-cheatsheet}{https://github.com/windscale-stephen/go-cheatsheet}
 
 \end{multicols}
 \end{document}

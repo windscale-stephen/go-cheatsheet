@@ -1,6 +1,7 @@
-LaTeX cheat sheet
-=================
+# Go Cheat Sheet
+This repository:
+* https://github.com/windscale-stephen/go-cheatsheet
 
-This repository contains the source for the LaTeX cheat sheet.
+contains the source code for my Go Cheatsheet. It's based on Winston Chang's excellent LaTeX cheatsheet which you can find at:
+* https://github.com/wch/latexsheet
 
-Please see https://wch.github.io/latexsheet/

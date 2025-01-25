@@ -23,21 +23,25 @@ img {
 
 </script>
 
+# Go cheat sheet
 
-## LaTeX cheat sheet
+This is a Go cheat sheet written in LaTeX which is geared towards printing
+double-sided flipped on the short edge so that it can be laminated. Please
+send suggestions to stephen@windscale.dev.
 
-This is a latex reference sheet which is geared toward writing scientific papers. Please send suggestions to winston@stdout.org.
+It's based on Winston Chang's excellent LaTeX cheatsheet which you can find at
+https://github.com/wch/latexsheet.
 
 PNG images of the reference sheet:
 
-[![](latexsheet-thumb-0.png)](latexsheet-0.png)
-[![](latexsheet-thumb-1.png)](latexsheet-1.png)
+[![](go-cheatsheet-thumb-0.png)](go-cheatsheet-0.png)
+[![](go-cheatsheet-thumb-1.png)](go-cheatsheet-1.png)
 
 ### Download
 
-[PDF](latexsheet.pdf) (US letter) |
-[PDF](latexsheet-a4.pdf) (A4) |
-[LaTeX](latexsheet.tex)
+[PDF](go-cheatsheet.pdf) (US letter) |
+[PDF](go-cheatsheet-a4.pdf) (A4) |
+[LaTeX](go-cheatsheet.tex)
 
 ### License
 
