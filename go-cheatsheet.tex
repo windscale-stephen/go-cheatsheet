@@ -112,6 +112,31 @@ To build excutable (to \texttt{helloworld}):
 go build helloworld
 \end{verbatim}
 
+\section{Predeclared Types}
+\begin{tabular}{l|l|l}
+                                   &                                  & \textbf{Zero}  \\
+    \textbf{Name}                  & \textbf{Values}                  & \textbf{Value} \\
+    \hline
+    \texttt{bool}                  & \texttt{true}, \texttt{false}    & \texttt{false} \\
+    \texttt{int8}                  & -128 to 127                      & 0              \\
+    \texttt{int16}                 & -32768 to 32767                  & 0              \\
+    \texttt{int32} / \texttt{rune} & -2147483648 to 2147483647        & 0              \\
+    \texttt{int64}                 & -9223372036854775808 to          & 0              \\
+                                   & 9223372036854775807              &                \\
+    \texttt{int}                   & 32-bit or 64-bit signed          & 0              \\
+    \texttt{uint8} / \texttt{byte} & 0 to 255                         & 0              \\
+    \texttt{uint16}                & 0 to 65535                       & 0              \\
+    \texttt{uint32}                & 0 to 4294967295                  & 0              \\
+    \texttt{uint64}                & 0 to 18446744073709551615        & 0              \\
+    \texttt{uint}                  & 32-bit or 64-bit unsigned        & 0              \\
+    \texttt{uintptr}               & unsigned pointer                 & \texttt{nil}   \\
+    \texttt{float32}               & Single precision floating point  & 0              \\
+    \texttt{float64}               & Double precision floating point  & 0              \\
+    \texttt{complex64}             & 32-bit signed real and imaginary &                \\
+    \texttt{complex128}            & 64-bit signed real and imaginary &                \\
+    \texttt{string}                & string type (UTF-8 encoded)      & \texttt{""}    \\
+\end{tabular}
+
 \section{Document classes}
 \begin{tabular}{@{}ll@{}}
 \verb!book!    & Default is two-sided. \\
@@ -125,7 +150,6 @@ Used at the very beginning of a document:
 \verb!\documentclass{!\textit{class}\verb!}!.  Use
 \verb!\begin{document}! to start contents and \verb!\end{document}! to
 end the document.
-
 
 \subsection{Common \texttt{documentclass} options}
 \newlength{\MyLen}
